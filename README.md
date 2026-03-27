@@ -1,5 +1,3 @@
-Personal Portfolio
-
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a Software Engineer.
 
 
@@ -23,7 +21,7 @@ This portfolio is created to represent my skills, projects, and journey as a dev
 📬 Contact Me
 
 📧 Email: shilpavnayak014@gmail.com
-📍 Location: Kochi, Kerala, India
+📍 Location: Mangalore, Karnataka, India
 
 
 ⭐ Acknowledgements
