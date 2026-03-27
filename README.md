@@ -24,12 +24,5 @@ This portfolio is created to represent my skills, projects, and journey as a dev
 📍 Location: Mangalore, Karnataka, India
 
 
-⭐ Acknowledgements
-
 Thanks for visiting my portfolio! Feel free to explore and connect with me.
-
-
-📄 License
-
-This project is licensed under the MIT License.
 
