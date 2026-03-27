@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shilpa Nayak | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Shilpa</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-container">
+
+    <!-- LEFT CONTENT -->
+    <div class="hero-text">
+        <h2>
+            <span class="intro">Hi, I'm</span><br>
+            <span class="name">Shilpa V Nayak</span>
+        </h2>
+      <div class="typing" id="typing"></div>
+      <div class="hero-buttons">
+        <a href="shilpa_resume.pdf" download class="btn">Download CV</a>
+        <a href="#contact" class="btn btn-outline" onclick="scrollToSection('contact')">Contact</a>
+      </div>
+      
+      <div class="hero-social">
+        <a href="https://github.com/shilpaa14" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/shilpa-v-nayak-63101224b/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="hero-image">
+      <img src="images/image.png" alt="Shilpa Nayak">
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about-container">
+
+    <!-- LEFT: Text -->
+    <div class="about-box">
+      <p>
+        Hi, I'm <strong>Shilpa V Nayak</strong>, a Software Engineer based in India with a background in Computer Science. I have a strong interest in software development, cloud technologies, and networking, and I enjoy working across both system-level and application-level domains.
+      </p>
+
+      <p>
+        Currently, I work at <strong>Poornam Info Vision Private Limited, Kerala</strong>, where I work with Linux and Windows Server environments, troubleshoot application-level issues, and handle web hosting. I have hands-on experience with CPanel and Plesk, along with a solid understanding of networking concepts.
+      </p>
+
+      <p>
+        I also work with databases, focusing on efficient data management, performance optimization, and maintaining high availability for applications.
+      </p>
+
+      <p>
+        I am passionate about coding and software development. I enjoy building applications using <strong>Python</strong>, and I also have knowledge of <strong>Java</strong> and <strong>React</strong>. I love creating real-world projects, automating tasks, and continuously improving my development skills.
+      </p>
+
+      <p>
+        I am exploring modern technologies such as <strong>Cloud </strong> and <strong>AI</strong> to expand my expertise and stay up-to-date with the latest trends.
+      </p>
+
+      <p>
+        I completed my <strong>Bachelor of Engineering in Computer Science (2025)</strong> from St. Joseph Engineering College, Mangalore. During my studies, I developed projects including an ERP system and a mobile application, strengthening my problem-solving and development skills.
+      </p>
+
+      <p>
+        My goal is to grow as a Software Engineer and build scalable, efficient, and impactful applications while continuously learning new technologies.
+      </p>
+    </div>
+
+    <!-- RIGHT: Info Cards 
+    <div class="about-cards">
+      <div class="info-box">👩‍💻 Software Engineer</div>
+      <div class="info-box">📍 India</div>
+      <div class="info-box">🎓 B.E. Computer Science</div>
+      <div class="info-box">⚡ Python | Java | React</div>
+      <div class="info-box">☁️ Cloud & AI</div>
+      <div class="info-box">🖥 Linux & Windows Server</div>
+    </div>
+    -->
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-container">
+
+    <!-- LANGUAGES -->
+    <div class="skill-category">
+      <h3>Languages</h3>
+      <div class="skills">
+        <div class="skill"><i class="fab fa-python"></i> Python</div>
+        <div class="skill"><i class="fab fa-java"></i> Java</div>
+        <div class="skill"><i class="fas fa-code"></i> C</div>
+      </div>
+    </div>
+
+    <!-- WEB -->
+    <div class="skill-category">
+      <h3>Web Development</h3>
+      <div class="skills">
+        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-react"></i> React.js</div>
+        <div class="skill"><i class="fab fa-node"></i> Node.js</div>
+        <div class="skill"><i class="fas fa-bolt"></i> Next.js</div>
+        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+      </div>
+    </div>
+
+    <!-- DATABASE -->
+    <div class="skill-category">
+      <h3>Database</h3>
+      <div class="skills">
+        <div class="skill"><i class="fas fa-database"></i> SQL</div>
+        <div class="skill"><i class="fas fa-database"></i> MySQL</div>
+        <div class="skill"><i class="fas fa-server"></i> MSSQL</div>
+      </div>
+    </div>
+
+    <!-- SYSTEMS -->
+    <div class="skill-category">
+      <h3>Systems & Hosting</h3>
+      <div class="skills">
+        <div class="skill"><i class="fab fa-linux"></i> Linux</div>
+        <div class="skill"><i class="fab fa-windows"></i> Windows Server</div>
+        <div class="skill"><i class="fas fa-globe"></i> Web Hosting</div>
+        <div class="skill"><i class="fas fa-network-wired"></i> Networking</div>
+      </div>
+    </div>
+
+    <!-- TOOLS -->
+    <div class="skill-category">
+      <h3>Tools & Others</h3>
+      <div class="skills">
+        <div class="skill"><i class="fab fa-docker"></i> Docker</div>
+        <div class="skill"><i class="fas fa-tools"></i> Troubleshooting</div>
+        <div class="skill"><i class="fas fa-sitemap"></i> Data Structures</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects">
+
+    <div class="card animate-card" onclick="openModal('erp')">
+      <h3>ERP System</h3>
+      <p>Comprehensive ERP System including CRM, Quotation, Inventory, Expense Management, and Billing using Next.js, Node.js, MySQL, and Docker.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+    <div class="card animate-card" onclick="openModal('property')">
+      <h3>Property Assessment Tool</h3>
+      <p>A web-based property assessment tool with mapping and analytics features for financial firms, built using Java, React, CSS, PostgreSQL, and Leaflet.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+    <div class="card animate-card" onclick="openModal('guardian')">
+      <h3>Guardian – A Caring Companion for Dyslexia</h3>
+      <p>An innovative web platform to support children with dyslexia using interactive learning activities, quizzes, and storytelling.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+
+    <div class="card animate-card" onclick="openModal('empowher')">
+      <h3>empowHER – Woman's Companion & Safety App</h3>
+      <p>Android app for real-time distress detection, SOS alerts, and location tracking, designed to enhance women's safety.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+    <div class="card animate-card" onclick="openModal('diet')">
+      <h3>Diet & Custom Food Recommendation System</h3>
+      <p>Machine learning-based system that generates personalized diet plans, calorie requirements, and recipe recommendations.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+    <div class="card animate-card" onclick="openModal('bookstore')">
+      <h3>Online Book Store</h3>
+      <p>A web-based platform to explore books, authors, and genres with personalized recommendations using HTML, CSS, JavaScript, PHP, MySQL.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+    <div class="card animate-card" onclick="openModal('car')">
+      <h3>Car Showroom Management System</h3>
+      <p>Web-based system to manage car inventory, bookings, and customer interactions efficiently using HTML, CSS, JavaScript, PHP, MySQL.</p>
+      <span class="view-more">View Details →</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Contact Me</h2>
+
+  <div class="contact-line">
+    
+    <a href="mailto:shilpavnayak014@gmail.com" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=shilpavnayak014@gmail.com','_blank')">
+      <i class="fas fa-envelope"></i>
+      <span>Email</span>
+    </a>
+
+    <span>|</span>
+
+    <a href="https://www.linkedin.com/in/shilpa-v-nayak-63101224b/" target="_blank">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+    <span>|</span>
+
+    <a href="https://github.com/shilpaa14" target="_blank">
+      <i class="fab fa-github"></i>
+      <span>GitHub</span>
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Shilpa Nayak</p>
+</footer>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <div class="modal-content" id="modal-content"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
